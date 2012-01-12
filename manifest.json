@@ -1,0 +1,8 @@
+{
+  "name": "Yahoo! Dictionary",
+  "description": "Yahoo! Dictionary",
+  "version": "0.1",
+  "permissions": ["contextMenus","tabs"],
+  "background_page": "background.html",
+  "content_security_policy": "default-src 'self'"
+}
