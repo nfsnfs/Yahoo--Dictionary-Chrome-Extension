@@ -1,4 +1,4 @@
-function sendSearch(info, tab) {	
+﻿function sendSearch(info, tab) {	
 	var text = info.selectionText;
 	
 	var url = 'http://tw.dictionary.yahoo.com/dictionary?p=' + text;
@@ -8,4 +8,4 @@ function sendSearch(info, tab) {
 }
 
 
-chrome.contextMenus.create({"title": "Query '%s' in Yahoo! Dictionary", "contexts":["selection"], "onclick": sendSearch});
+chrome.contextMenus.create({"title": "在 Yahoo! 字典中查詢 '%s'", "contexts":["selection"], "onclick": sendSearch});

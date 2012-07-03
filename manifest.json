@@ -1,8 +1,11 @@
-{
-  "name": "Yahoo! Dictionary",
-  "description": "Yahoo! Dictionary",
+﻿{
+  "name": "Right Click Dictionary Extension",
+  "description": "使用者只需要按右鍵，並選擇「在 Yahoo! 字典中查詢 ...」，即可使用台灣 Yahoo! 字典!!",
   "version": "0.1",
   "permissions": ["contextMenus","tabs"],
   "background_page": "background.html",
-  "content_security_policy": "default-src 'self'"
+  "content_security_policy": "default-src 'self'",
+  "icons": {
+	"16": "icon.png"
+  }
 }
